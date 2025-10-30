@@ -8,4 +8,3 @@ module.exports =  {
     "bdname" :"pollution_mzxu"
     }
 }
-
