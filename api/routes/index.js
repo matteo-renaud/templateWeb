@@ -1,4 +1,5 @@
 module.exports = app => {  
-  require("./pollution.routes")(app);
-  require("./utilisateur.routes")(app);
+    require('./catalogue.routes')(app)
+    require('./utilisateur.routes')(app)
+    require('./pollution.routes')(app)
 }
