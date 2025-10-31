@@ -4,7 +4,7 @@ const db = require("../models");
 const Pollution = db.pollution;
 const Op = db.Sequelize.Op;
 
-exports.get = (req, res) => {
+exports.findAll = (req, res) => {
 
      Pollution.findAll()
     .then(data => {res.send(data);})
